@@ -21,6 +21,8 @@ html,body{
 	height: 100%;
 	justify-content: center;
 	align-items: center;
+	min-width: 500px;
+
 }
 
 header{
@@ -28,14 +30,22 @@ header{
 	border:solid green 2px;
 	width:98%;
 	height: 10%;
+	min-width: 1700px;
+	min-height: 30px;
+	position: fixed;
+	align-items: center;
+	
 }
 
 nav{
 	border:solid yellow 2px;
 	width:70%;
-	height: 100%;
+	height: 50%;
 	justify-content: center;
 	align-items: center;
+	align-self: flex-start;
+	background: linear-gradient(#20003f,#cba1f4, transparent);
+	
 }
 .menu{ 
 	width: 100%;
@@ -43,16 +53,25 @@ nav{
 	flex-wrap: wrap;
 	list-style: none;
 	font-family: 'Krona One', sans-serif;
+	color:#fffbed;
 	font-size: 20px;
+	text-shadow: 2px 2px #6f5e77;
+}
+li {
+	min-width: 225px;
 }
 section{
-	border:solid green 2px;
 	width:98%;
 	height: 120%;
 	justify-content: space-around;
 	align-items: center;
 	flex-wrap: wrap;
+	overflow: scroll;
+	border: solid grey 2px;
+	min-width: 1100px;
+	min-height: 1200px;
 }
+
 #encabezados{
 	width: 97%;
 	height: 7%;
@@ -60,6 +79,44 @@ section{
 	justify-content: space-around;
 	align-items: center;
 	font-family: 'Krona One';
+	color:black;
+	min-width: 700px;
+	
+}
+h4{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	background-color: pink;
+	width: 33%;
+	height: 100%;
+	transition:background-color 1s, width 1s, height 1s;
+	transition-timing-function: ease-out;
+}
+h4:hover{
+	background-color: purple;
+	color:#fffbed;
+	text-shadow: 1px 1px #d2cbd3;
+	width: 35%;
+	height: 110%;
+}
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
 }
 article{
 	width: 30%;
@@ -68,6 +125,8 @@ article{
 	justify-content: center;
 	flex-wrap: wrap;
 	align-items: center;
+	min-width: 550px;
+	min-height: 1100px;
 }
 
 #trabajos{
@@ -81,4 +140,10 @@ footer{
 	border:solid;
 	width:98%;
 	height: 8%;
+	min-width: 1700px;
+	min-height: 50px;
+}
+
+.principal{
+	margin-top: 7%;
 }
