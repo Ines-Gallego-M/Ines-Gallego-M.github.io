@@ -2,32 +2,97 @@
 <html>
 <head>
 	<title>Inés Gallego</title>
-	<link rel="stylesheet" href="estilos/styles.css"/>
+	<link rel="stylesheet" href="estilos/styles.css"/> 
 	<style>
 	@import url('https://fonts.googleapis.com/css?family=Krona+One');
-	</style>
+	</style> 
 	<meta charset="utf-8"/>
 </head>
-<body class="display_flex">
+<body class="display_flex bg">
 <header class="display_flex">
 	<div id="titulo" class="display_flex">
-		<p> mi nombre </p>
+		<img src="estilos/imagenes/icon.png" alt="IGM" width="50" height="100">
 	</div>
 	<nav class="display_flex">
 		<ol class="display_flex menu">
-			<li>Inicio</li>
-			<li>Quién soy</li>
-			<li>Mis trabajos</li>
-			<li>Contacto</li>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="#enlace1">Quién soy</a></li>
+			<li><a href="#enlace2">Mis trabajos</a></li>
+			<li><a href="#enlace3">Contacto</a></li>
 		</ol>
 </nav>	
 </header>
+<section class="display_flex principal">
+	<div class="display_flex" id="enlace1"></div>
+</section>
 
-<section class="display_flex">
-	<p> contenido </p>
+<section class="display_flex ">
+	<div class="display_flex" id="enlace2"></div>
 	
 </section>
-<footer>footer</footer>
+
+<section class="display_flex">
+<div class="display_flex" id="encabezados">
+<h4> <a href="#a2d"> Animación 2D </a></h4>
+<h4> <a href="#a3d">  Animación 3D  </a></h4>
+<h4> <a href="#Mod">Modelado </a></h4>
+</div>
+
+<article class="display_flex">
+		<div class="display_flex" id="trabajos"><a name="a2d"></a><video controls loop>
+  <source src="videos/a2d1.mov">
+Your browser does not support the video tag.
+</video>
+		</div>
+		<div class="display_flex" id="trabajos"><video controls loop>
+  <source src="videos/a2d2.mov">
+Your browser does not support the video tag.
+</video></div>
+		<div class="display_flex" id="trabajos"><video controls loop>
+  <source src="videos/a2d3.mov">
+Your browser does not support the video tag.
+</video></div>
+</article>
+
+<article class="display_flex">
+		<div class="display_flex" id="trabajos"><a name="a3d"></a><video controls loop>
+  <source src="videos/a3d1.mov">
+Your browser does not support the video tag.
+</video></div>
+		<div class="display_flex" id="trabajos"><video controls loop>
+  <source src="videos/a3d2.mov">
+Your browser does not support the video tag.
+</video></div>
+		<div class="display_flex" id="trabajos"><video controls loop>
+  <source src="videos/a3d3.mov">
+Your browser does not support the video tag.
+</video></div>
+</article>
+
+<article class="display_flex">
+		<div class="display_flex" id="trabajos"><a name="Mod"></a><video controls loop>
+  <source src="videos/mod1.mov">
+Your browser does not support the video tag.
+</video></div>
+		<div class="display_flex" id="trabajos"><video controls loop>
+  <source src="videos/mod2.mov">
+Your browser does not support the video tag.
+</video></div>
+		<div class="display_flex" id="trabajos"><video controls loop>
+  <source src="videos/mod3.mov">
+Your browser does not support the video tag.
+</video></div>
+</article>
+<div class="display_flex" id="enlace3"></div>
+</section>
+
+<section class="display_flex">
+	<article id="socials"> </article>
+	<article id="socials"> </article>
+	<article id="socials"> </article>	
+</section>
+
+<footer class="display_flex">blablabla</footer>
 
 </body>
 </html> 
