@@ -75,7 +75,6 @@ li:hover{
 	border-bottom: solid #e6fffa 8px;
 }
 section{
-
 	width:98%;
 	height: 120%;
 	justify-content: space-around;
@@ -122,10 +121,10 @@ a {
   color: inherit; /* blue colors for links too */
   text-decoration: inherit; /* no underline */
 }
-article{
+#mis_trabajos{
 	width: 30%;
 	height: 88%;
-	/*border:solid orange 2px;*/
+	border:solid orange 2px;
 	justify-content: center;
 	flex-wrap: wrap;
 	align-items: center;
@@ -178,12 +177,33 @@ footer{
 	height: 5%;
 	align-self: flex-end;
 }
-
 #socials{
-	border:solid;
-	width: 30%;
-	height: 80%;
+	width: 98%;
+	height: 88%;
+	border:solid orange 2px;
+	justify-content: center;
+	flex-wrap: wrap;
+	min-width: 600px;
+	min-height: 1100px;
+	position: relative;
 }
+#hola{
+	border: solid;
+	justify-content: flex-start;
+	align-items: flex-start;
+	width: 60%;
+	height: 20%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#twitter{
+	border:solid red;
+	width: 80%;
+	height: 80%;
+	align-self: center;
+}
+
 img{
 	width: 55%;
 	height: 170%;
