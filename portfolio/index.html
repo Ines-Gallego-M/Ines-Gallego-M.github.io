@@ -5,13 +5,14 @@
 	<link rel="stylesheet" href="estilos/styles.css"/> 
 	<style>
 	@import url('https://fonts.googleapis.com/css?family=Krona+One');
+	@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display');
 	</style> 
 	<meta charset="utf-8"/>
 </head>
 <body class="display_flex bg">
 <header class="display_flex">
 	<div id="titulo" class="display_flex">
-		<img src="estilos/imagenes/icon.png" alt="IGM" width="50" height="100"></a>
+		<img src="estilos/imagenes/icon.png" alt="IGM" width="200" height="170">
 	</div>
 	<nav class="display_flex">
 		<ol class="display_flex menu">
@@ -22,11 +23,126 @@
 		</ol>
 </nav>	
 </header>
-<section class="display_flex principal">
+<section class="display_flex" id="principal">
+	<h1 id="inicio_f"> Inés Gallego
+	PORTFOLIO </h1>
+
 	<div class="display_flex" id="enlace1"></div>
 </section>
 
-<section class="display_flex ">
+<section class="display_flex" id="about">
+	<article  class="display_flex" id="descripcion">
+
+		<img id="foto" src="estilos/imagenes/yo.png" alt="InesGallego">
+		<p id="info_me"> ¡Bienvenid@ a mi portofolio! Me llamo Inés y soy una chica que siempre ha estado interesada en la animación y los videojuegos (los dibujitos y las maquinitas, de toda la vida). 
+			<br>
+		Mi sueño es poder vivir de crear cosas que me gusten o que le gusten a otras personas. Aquí podrás ver algunas de las cosas que hago y dónde me he formado. </p>
+		<div class="display_flex" id="flechas">
+			<img id="flecha_abajo" src="estilos/imagenes/abajo.png" alt="abajo">
+			<img id="flecha_derecha" src="estilos/imagenes/derecha.png" alt="derecha">
+		</div>
+	</article>
+	<article class="display_flex" id="timeline_me">
+      <div class="timeline">
+        <div class="timeline__group">
+          <span class="timeline__year">2014</span>
+          <div class="timeline__box">
+            <div class="timeline__date">
+              <span class="timeline__day">21</span>
+              <span class="timeline__month">Jun</span>
+            </div>
+            <div class="timeline__post">
+              <div class="timeline__content">
+                <p>Me gradué en Educación Secundaria Obligatoria en IES La Sisla Sonseca (Toledo)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="timeline__group">
+          <span class="timeline__year">2016</span>
+          <div class="timeline__box">
+            <div class="timeline__date">
+              <span class="timeline__day">26</span>
+              <span class="timeline__month">Jun</span>
+            </div>
+            <div class="timeline__post">
+              <div class="timeline__content">
+                <p>Me gradué en Bachillerato Tecnológico en IES La Sisla Sonseca (Toledo)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="timeline__group">
+          <span class="timeline__year">2017</span>
+          <div class="timeline__box">
+            <div class="timeline__date">
+              <span class="timeline__day">15</span>
+              <span class="timeline__month">May</span>
+            </div>
+            <div class="timeline__post">
+              <div class="timeline__content">
+                <p>Cursé el primer año de Diseño y Desarrollo de Videojuegos en la URJC (Madrid)</p>
+              </div>
+            </div>
+          </div>
+          <div class="timeline__box">
+            <div class="timeline__date">
+              <span class="timeline__day">27</span>
+              <span class="timeline__month">Sep</span>
+            </div>
+            <div class="timeline__post">
+              <div class="timeline__content">
+                <p>Empecé el ciclo formativo de Animación 3D, Juegos y Entornos Interactivos en la U-TAD (Madrid)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+	</article>
+	<article  class="display_flex" id="progreso">
+		<h3>Maya/Mudbox</h3>
+<div class="contenedor">
+  <div class="skills maya">90%</div>
+</div>
+
+<h3>Unity</h3>
+<div class="contenedor">
+  <div class="skills unity">85%</div>
+</div>
+
+<h3>Paquete Adobe (Photoshop, Illustrator, Indesign, etc)</h3>
+<div class="contenedor">
+  <div class="skills adobe">80%</div>
+</div>
+
+<h3>Harmony Toon Boom</h3>
+<div class="contenedor">
+  <div class="skills harmony">75%</div>
+</div>
+		
+	</article>
+		<article  class="display_flex" id="progreso2">
+		<h3>Programación con Java</h3>
+<div class="contenedor">
+  <div class="skills java">70%</div>
+</div>
+
+<h3>Programación con html</h3>
+<div class="contenedor">
+  <div class="skills html">70%</div>
+</div>
+
+<h3>Idioma inglés</h3>
+<div class="contenedor">
+  <div class="skills ingles">95%</div>
+</div>
+
+<h3>Idioma japonés</h3>
+<div class="contenedor">
+  <div class="skills japones">20%</div>
+</div>
+		
+	</article>
 	<div class="display_flex" id="enlace2"></div>
 	
 </section>
@@ -38,47 +154,47 @@
 <h4> <a href="#Mod">Modelado </a></h4>
 </div>
 
-<article class="display_flex" id="mis_trabajos">
-		<div class="display_flex" id="trabajos"><a name="a2d"></a><video controls loop>
+<article class="display_flex mis_trabajos">
+		<div class="display_flex trabajos"><a name="a2d"></a><video controls loop>
   <source src="videos/a2d1.mov">
 Your browser does not support the video tag.
 </video>
 		</div>
-		<div class="display_flex" id="trabajos"><video controls loop>
+		<div class="display_flex trabajos"><video controls loop>
   <source src="videos/a2d2.mov">
 Your browser does not support the video tag.
 </video></div>
-		<div class="display_flex" id="trabajos"><video controls loop>
+		<div class="display_flex trabajos"><video controls loop>
   <source src="videos/a2d3.mov">
 Your browser does not support the video tag.
 </video></div>
 </article>
 
-<article class="display_flex" id="mis_trabajos">
-		<div class="display_flex" id="trabajos"><a name="a3d"></a><video controls loop>
+<article class="display_flex mis_trabajos">
+		<div class="display_flex trabajos"><a name="a3d"></a><video controls loop>
   <source src="videos/a3d1.mov">
 Your browser does not support the video tag.
 </video></div>
-		<div class="display_flex" id="trabajos"><video controls loop>
+		<div class="display_flex trabajos"><video controls loop>
   <source src="videos/a3d2.mov">
 Your browser does not support the video tag.
 </video></div>
-		<div class="display_flex" id="trabajos"><video controls loop>
+		<div class="display_flex trabajos"><video controls loop>
   <source src="videos/a3d3.mov">
 Your browser does not support the video tag.
 </video></div>
 </article>
 
-<article class="display_flex" id="mis_trabajos">
-		<div class="display_flex" id="trabajos"><a name="Mod"></a><video controls loop>
+<article class="display_flex mis_trabajos">
+		<div class="display_flex trabajos"><a name="Mod"></a><video controls loop>
   <source src="videos/mod1.mov">
 Your browser does not support the video tag.
 </video></div>
-		<div class="display_flex" id="trabajos"><video controls loop>
+		<div class="display_flex trabajos"><video controls loop>
   <source src="videos/mod2.mov">
 Your browser does not support the video tag.
 </video></div>
-		<div class="display_flex" id="trabajos"><video controls loop>
+		<div class="display_flex trabajos"><video controls loop>
   <source src="videos/mod3.mov">
 Your browser does not support the video tag.
 </video></div>
@@ -89,16 +205,22 @@ Your browser does not support the video tag.
 <section class="display_flex">
 	<article class="display_flex" id="socials">
 		<div class="display_flex" id="hola">
-			Contacta conmigo
+			<h3 id="rotate"> Contacta conmigo </h3>
 		</div>
 		<div class="display_flex" id="twitter">
-			Redes sociales
+			<a href="https://twitter.com/?lang=es"><img class="iconos" src="estilos/imagenes/twitter_logo.png" alt="twitter" width="500" height="500"></a>
+		</div>
+		<div class="display_flex" id="insta">
+			<a href="https://www.instagram.com/?hl=es"><img class="iconos" src="estilos/imagenes/insta_logo.png" alt="insta" width="500" height="500"></a>
+		</div>
+		<div class="display_flex" id="linkedin">
+			<a href="https://es.linkedin.com"><img class="iconos" src="estilos/imagenes/linkedin_logo.png" alt="linkedin" width="500" height="500"></a>
 		</div>
 	</article>
 
 </section>
 
-<footer class="display_flex">blablabla</footer>
+<footer class="display_flex"><p>Práctica final de web de Inés Gallego Martín para RPMI 1ºB AJEI 2017/2018</p></footer>
 
 </body>
 </html> 
